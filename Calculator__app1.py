@@ -14,7 +14,7 @@ elif operation == "Subtract":
 elif operation == "Multiply":
     result = num1 * num2
 elif operation == "Divide":
-    result = num1 / num2 if num2 != 0 else "❌ Cannot divide by zero"
+    result = num1 / num2 if num2 != 0 else "Cannot divide by zero"
 else:
     result = "Select an operation"
 
